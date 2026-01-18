@@ -1,0 +1,14 @@
+name: AttackTarget
+description: "\"The actor attacks someone and starts combat. Use this when:\\n  - The actor decides to fight or kill someone\\n  - The actor is provoked beyond words\\n  - The actor needs to defend themselves or others\\n  - The actor is carrying out a threat\\n  \\n  Common triggers: \\\"I'll kill you\\\", \\\"die!\\\", \\\"you'll pay for that\\\", *attacks*, *draws weapon and strikes*, \\\"that's it, you're dead\\\"\""
+questEditorId: SeverActions
+scriptName: SeverActions_Combat
+executionFunctionName: AttackTarget_Execute
+parameterMapping:
+  - type: speaker
+    name: akAttacker
+    description: Speaker Actor parameter (triggering entity)
+  - type: dynamic
+    name: akTarget
+    description: The person being attacked
+enabled: true
+defaultPriority: 7

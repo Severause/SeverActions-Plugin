@@ -1,0 +1,10 @@
+name: StopFollowing
+description: Stop following {{ player.name }} when appropriate
+questEditorId: SeverActions
+scriptName: SeverActions_Follow
+executionFunctionName: StopFollowing
+parameterMapping:
+  - type: speaker
+    name: akActor
+    description: Speaker Actor parameter (triggering entity)
+enabled: true
